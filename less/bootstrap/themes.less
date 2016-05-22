@@ -1,0 +1,88 @@
+body {
+	min-width: 320px;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+:focus {
+	outline: none;
+}
+
+.btn {
+	width: 360px;
+	height: 50px;
+	padding: 0 13px;
+	background-color: #5597d2;
+	border-radius: 0;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 700;
+	
+	&:hover {
+		background-color: #F88900;
+		color: #fff;
+	}
+}
+
+input, .input {
+	width: 360px;
+	height: 50px;
+	padding: 0 13px;
+	border: none;
+	color: #222;
+	
+	.placeholder(#222);
+}
+
+.popover {
+	color: #222;
+}
+
+.anchor[id] {
+	position: absolute;
+	
+
+	@media (min-width: @screen-sm-min) {
+		top: -150px;
+	}
+	
+	@media (min-width: @screen-md-min) {
+		top: -80px;
+	}
+	/*
+	&:before {
+		content: " "; 
+		position: relative;
+		display: block; 
+		width: 1px;
+		margin-top: -150px; 
+		height: 150px; 
+		visibility: hidden; 
+		
+		@media (min-width: @screen-md-min) {
+			margin-top: -80px; 
+			height: 80px; 
+		}
+	}
+
+	*/
+}
+
+.Finish,
+.What,
+.Main,
+.Price {
+	position: relative;
+}
